@@ -1,0 +1,16 @@
+.parrafo{
+    background-color: blue ;
+    padding: 30px;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    text-align: justify;
+    color: white;
+    border-radius: 8px;
+}
+
+.contenedor-flexible{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
