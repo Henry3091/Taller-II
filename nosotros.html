@@ -12,7 +12,7 @@
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">MAHEN VENTA DE JUGUETES DE COLECCION</a>
+            <a class="navbar-brand" href="#"><img src="imagenes/logo.jpg" alt="Logo" style="height: 40px;"> MAHEN VENTA DE JUGUETES DE COLECCION</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -35,24 +35,47 @@
         <p>En MAHEN, somos una empresa dedicada a la venta de juguetes de colección exclusivos. Nos apasiona ofrecer productos de calidad que se conviertan en tesoros para nuestros clientes, ofreciendo desde figuras icónicas hasta artículos únicos para fanáticos de todos los géneros.</p>
         <div class="contenedor-flexible">
             <div class="parrafo">
-        <h3 class="mt-4">Misión</h3>
-        <p>Nuestra misión es ofrecer a nuestros clientes productos de coleccionismo de alta calidad que capturen la esencia de sus pasiones. Nos comprometemos a proporcionar artículos exclusivos y garantizar una experiencia de compra excepcional.</p>
-    </div>
-    <div class="parrafo">
-        <h3 class="mt-4">Visión</h3>
-        <p>Ser la tienda líder en el mercado de juguetes de colección, destacándonos por la calidad de nuestros productos y el servicio al cliente. Buscamos expandir nuestra presencia tanto en línea como física, llevando nuestros productos a todos los rincones del mundo.</p>
-    </div>
-    <div class="parrafo">
-        <h3 class="mt-4">Valores</h3>
-        <ul>
-            <li><strong>Innovación:</strong> Siempre buscamos estar a la vanguardia de las últimas tendencias y productos exclusivos.</li>
-            <li><strong>Compromiso:</strong> Nos comprometemos con nuestros clientes a ofrecerles lo mejor, en todo momento.</li>
-            <li><strong>Calidad:</strong> Todos nuestros productos pasan rigurosos controles de calidad para garantizar su autenticidad y durabilidad.</li>
-            <li><strong>Transparencia:</strong> Actuamos con honestidad en todas nuestras operaciones, ofreciendo precios justos y productos de confianza.</li>
-        </ul>
+                <h3 class="mt-4">Misión</h3>
+                <p>Nuestra misión es ofrecer a nuestros clientes productos de coleccionismo de alta calidad que capturen la esencia de sus pasiones. Nos comprometemos a proporcionar artículos exclusivos y garantizar una experiencia de compra excepcional.</p>
             </div>
-        </ul>
+            <div class="parrafo">
+                <h3 class="mt-4">Visión</h3>
+                <p>Ser la tienda líder en el mercado de juguetes de colección, destacándonos por la calidad de nuestros productos y el servicio al cliente. Buscamos expandir nuestra presencia tanto en línea como física, llevando nuestros productos a todos los rincones del mundo.</p>
+            </div>
+            <div class="parrafo">
+                <h3 class="mt-4">Valores</h3>
+                <ul>
+                    <li><strong>Innovación:</strong> Siempre buscamos estar a la vanguardia de las últimas tendencias y productos exclusivos.</li>
+                    <li><strong>Compromiso:</strong> Nos comprometemos con nuestros clientes a ofrecerles lo mejor, en todo momento.</li>
+                    <li><strong>Calidad:</strong> Todos nuestros productos pasan rigurosos controles de calidad para garantizar su autenticidad y durabilidad.</li>
+                    <li><strong>Transparencia:</strong> Actuamos con honestidad en todas nuestras operaciones, ofreciendo precios justos y productos de confianza.</li>
+                </ul>
+            </div>
+        </div>
     </section>
+
+    <!-- Sección de formulario de contacto con validación -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Formulario de Contacto</h2>
+        <form id="contact-form" onsubmit="return validateForm(event)">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Vinculamos el archivo JS -->
+    <script src="js/validacion-formulario.js"></script>
 
     <hr>
     <section class="container py-5">
@@ -62,7 +85,7 @@
     
     <!-- Pie de página -->
     <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; © 2025 MAHEN VENTA DE JUGUETES DE COLECCION. Todos los derechos reservados.</p>
+        <p>&copy; 2025 MAHEN VENTA DE JUGUETES DE COLECCION. Todos los derechos reservados.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>

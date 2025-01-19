@@ -1,0 +1,21 @@
+/* Cambiar el color de fondo de .bg-primary */
+.bg-primary {
+    background-color: #067029 !important; /* Cambiar a tu color preferido */
+  }
+  
+  /* Cambiar el color del texto de .text-primary */
+  .text-primary {
+    color: #067029 !important; /* Cambiar a tu color preferido */
+  }
+  
+  /* Cambiar el color de los botones primarios */
+  .btn-primary {
+    background-color: #067029 !important; /* Cambiar a tu color preferido */
+    border-color: #067029 !important;
+  }
+  
+  /* Cambiar el color de borde de los inputs */
+  .form-control:focus {
+    border-color: #067029 !important; /* Cambiar a tu color preferido */
+  }
+  
